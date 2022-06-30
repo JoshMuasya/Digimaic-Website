@@ -1,0 +1,168 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background-image: url(../../assets/images/Landingpage.jpg);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.homeback {
+    background: var(--background);
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 20px;
+}
+
+.mainleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.cname {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color);
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.tagline {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color);
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.aboutbtn {
+   margin-right: 40px;
+}
+
+.aboutbtn a {
+    background-color: var(--purple);
+    border-radius: 100px;
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.contactbtn {
+    margin-left: 40px;
+}
+
+.contactbtn a {
+    background-color: var(--midnight-blue);
+    border-radius: 100px;
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.rightimage {
+    height: auto;
+    width: 20rem;
+}
+
+
+@media screen and (max-width: 1115px) {
+    #home {
+        height: auto;
+    }
+
+    .homeback {
+        height: auto;
+    }
+
+    .mainleft {
+        padding-right: 10px;
+    }
+
+    .cname {
+        font-size: 24px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .mainleft {
+        padding-right: 5px;
+    }
+
+    .cname {
+        font-size: 20px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .rightimage {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .cname {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .aboutbtn {
+        margin-right: 20px;
+    }
+
+    .aboutbtn a {
+        font-size: 12px;
+    }
+
+    .contactbtn {
+        margin-left: 20px;
+    }
+
+    .contactbtn a {
+        font-size: 12px;
+    }
+
+    .cname {
+        font-size: 14px;
+    }
+
+    .tagline {
+        font-size: 10px;
+    }
+
+    .rightimage {
+        width: 10rem;
+    }
+}

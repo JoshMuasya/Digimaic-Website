@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  background-image: url(../../assets/images/Landingpage.jpg);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.homeback {
+  background: var(--background);
+  height: 100vh;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.toplogo {
+  width: auto;
+  height: 5rem;
+}
+
+.companyname {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.companyname h2 {
+  color: var(--color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.companyname h4 {
+  color: var(--color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.topright {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.navlinks a {
+  color: var(--color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.mainleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.cname {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color);
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.tagline {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color);
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.aboutbtn {
+  margin-right: 40px;
+}
+
+.aboutbtn a {
+  background-color: var(--purple);
+  border-radius: 100px;
+  color: var(--color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px;
+}
+
+.contactbtn {
+  margin-left: 40px;
+}
+
+.contactbtn a {
+  background-color: var(--midnight-blue);
+  border-radius: 100px;
+  color: var(--color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px;
+}
+
+.rightimage {
+  height: auto;
+  width: 20rem;
+}

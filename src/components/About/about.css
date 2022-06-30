@@ -1,0 +1,158 @@
+.about {
+    height: 120vh;
+    margin: 0;
+    padding-top: 50px;
+    background-color: var(--midnight-purple);
+}
+
+.innerabout {
+    margin-left: 28px;
+    width: 1300px;
+    height: 757px;
+    border: 1px solid var(--color);
+    display: flex;
+    flex-direction: row;
+}
+
+.leftabout {
+    width: 654px;
+    height: 757px;
+    border: 1px solid var(--color);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/About2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus {
+    color: var(--color);
+    padding-bottom: 20px;
+}
+
+.aboutus h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.aboutus p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.more {
+    color: var(--color);
+    padding-top: 20px;
+}
+
+.more p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.rightabout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.graphicdesign {
+    width: 278px;
+    height: 338px;
+    border: 1px solid var(--color);
+    background-color: var(--midnight-purple);
+    border-radius: 5rem;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 6px 5px #000000;
+}
+
+.graphicdesign h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.websitedesign {
+    width: 278px;
+    height: 338px;
+    border: 1px solid var(--color);
+    background-color: var(--midnight-purple);
+    border-radius: 5rem;
+    margin-bottom: 90px;
+    box-shadow: 5px 5px 6px 5px #000000;
+}
+
+.websitedesign h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color);
+    text-align: center;
+    padding-top: 12px;
+}
+
+.rightright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.digitalmarketing {
+    width: 278px;
+    height: 338px;
+    border: 1px solid var(--color);
+    background-color: var(--midnight-purple);
+    border-radius: 5rem;
+    margin-bottom: 40px;
+    margin-top: 90px;
+    box-shadow: 5px 5px 6px 5px #000000;
+}
+
+.digitalmarketing h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color);
+    text-align: center;
+    padding-top: 27px;
+}
+
+.brandbuilding {
+    width: 278px;
+    height: 338px;
+    border: 1px solid var(--color);
+    background-color: var(--midnight-purple);
+    border-radius: 5rem;
+    box-shadow: 5px 5px 6px 5px #000000;
+}
+
+.brandbuilding h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--color);
+    text-align: center;
+    padding-top: 27px;
+}

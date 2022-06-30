@@ -1,0 +1,57 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.toplogo {
+    width: auto;
+    height: 5rem;
+}
+
+.companyname {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.companyname h2 {
+    color: var(--color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.companyname h4 {
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.topright {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.navlinks a {
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 5px;
+}
