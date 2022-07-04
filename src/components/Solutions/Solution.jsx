@@ -2,7 +2,12 @@ import React from 'react'
 import './solution.css'
 import LOGO from '../../assets/images/DigimaticLogo.png';
 import {AiOutlineArrowRight} from 'react-icons/ai';
-import Dash from 'react-native-dash';
+import {AiOutlinePlus} from 'react-icons/ai'
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Solution = () => {
   return (
@@ -39,30 +44,76 @@ const Solution = () => {
 
         <div className="solutionbottom">
             <div className="solutionrect">
-                <div className="soln">
-                    <h3>Solutions</h3>
-
-                        <div className="dash">
-                            <Dash />
-                        </div>
-
-                </div>
-
-                <div className="soln">
-                    <h2>Graphics Designs</h2>
-                </div>
-
-                <div className="soln">
-                    <h2>UI/UX Design</h2>
-                </div>
-
-                <div className="soln">
-                    <h2>Website Development</h2>
-                </div>
-
-                <div className="soln">
-                    <h2>Digital Marketing</h2>
-                </div>
+                <h3>Solutions</h3>
+                <Accordion>
+                    <AccordionSummary
+                    expandIcon={<AiOutlinePlus />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                    >
+                    <Typography>
+                        <h2>Graphic Design</h2>
+                    </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                    <AccordionSummary
+                    expandIcon={<AiOutlinePlus />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                    >
+                    <Typography>
+                        <h2>UI/UX Design</h2>
+                    </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                    <AccordionSummary
+                    expandIcon={<AiOutlinePlus />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                    >
+                    <Typography>
+                        <h2>Website Development</h2>
+                    </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                    <AccordionSummary
+                    expandIcon={<AiOutlinePlus />}
+                    aria-controls="panel2a-content"
+                    id="panel2a-header"
+                    >
+                    <Typography>
+                        <h2>Digital Marketing</h2>
+                    </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                    <Typography>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                    </AccordionDetails>
+                </Accordion>
+                
             </div>
         </div>
     </div>        
