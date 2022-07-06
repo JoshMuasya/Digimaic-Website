@@ -1,0 +1,116 @@
+.contact {
+    margin-top: 23rem;
+    width: 1366px;
+    height: 585px;
+    background-color: var(--midnight-purple);
+}
+
+.title h2 {
+    color: var(--color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.title span {
+    color: var(--light-purple);
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.leftbox {
+    width: 485px;
+    height: 370px;
+    border: 1px solid var(--color);
+    border-radius: 3rem;
+    position: relative;
+    margin-left: 35px;
+}
+
+.leftcontent {
+    text-align: center;
+    color: var(--color);
+}
+
+.leftcontent h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+
+.leftcontent p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rightbox {
+    padding-right: 30px;
+    padding-left: 66px;
+    height: 370px;
+}
+
+/* Form styling */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.namesubject input {
+    width: 300px;
+    border: 1px solid var(--color);
+    border-radius: 3rem;
+    background-color: transparent;
+    font-size: 24px;
+    padding: 20px;
+    margin-right: 20px;
+    color: var(--color);
+}
+
+input {
+    width: auto;
+    border: 1px solid var(--color);
+    border-radius: 3rem;
+    background-color: transparent;
+    font-size: 24px;
+    padding: 20px;
+    color: var(--color);
+}
+
+textarea {
+    width: auto;
+    height: 150px;
+    border: 1px solid var(--color);
+    border-radius: 3rem;
+    background-color: transparent;
+    font-size: 24px;
+    padding: 20px;
+    color: var(--color);
+}
+
+button {
+    width: 290px;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: var(--color);
+    color: var(--midnight-purple);
+    border-radius: 3rem;
+    align-items: center;
+    text-align: center;
+}
